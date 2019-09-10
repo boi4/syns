@@ -83,7 +83,7 @@ class Search:
 
 
 def main():
-    cli = argparse.ArgumentParser(description=__doc__, prog='Syns')
+    cli = argparse.ArgumentParser(description=__doc__, prog='syns')
     cli.add_argument('word', metavar='WORD', type=str,
                     help='the word to find synonyms for')
     cli.add_argument('--similar', '-s', action='store_true',
